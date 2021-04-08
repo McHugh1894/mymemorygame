@@ -214,3 +214,18 @@ function winMessage() {
         winMsg.innerHTML = 'You can do it better!';
     }
 }
+
+// Closing on click the info and done windows 
+function windowClose() {
+    info.style.display = 'none';
+    done.style.display = 'none';
+    gameLock = false;
+}
+
+// Card shuffle
+function shuffle() {
+    card.forEach(cards => {
+        let randomPosition = Math.floor(Math.random() * 30);
+        cards.style.order = randomPosition;
+    })
+}
