@@ -240,3 +240,36 @@ body {
     border-style: none;
     object-fit: cover;
 }
+
+/* Footer ------------------- */
+#footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 21px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer p {
+    color: white;
+}
+
+.fa {
+    color: #fefefe;
+    padding-right: 4px;
+    font-size: 25px;
+    margin: 4px;
+}
+
+.fa:hover {
+    color: #525252;
+}
+
+.social {
+    float: right;
+    margin-right: 3%;
+}
