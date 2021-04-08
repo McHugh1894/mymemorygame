@@ -195,3 +195,22 @@ function flipBack() {
         gameLock = false;
     }, 1600);
 }
+
+// Checking with how many clicks completed the game and give a message
+function winMessage() {
+    if (clicks >= 30 && clicks <= 50) {
+        winMsg.innerHTML = 'Legendary!';
+    } else if (clicks >= 51 && clicks <= 65) {
+        winMsg.innerHTML = 'King of the game!';
+    } else if (clicks >= 66 && clicks <= 80) {
+        winMsg.innerHTML = 'Marvelous!';
+    } else if (clicks >= 81 && clicks <= 90) {
+        winMsg.innerHTML = 'Awesome!';
+    } else if (clicks >= 91 && clicks <= 105) {
+        winMsg.innerHTML = 'Nice one!';
+    } else if (clicks >= 106 && clicks <= 120) {
+        winMsg.innerHTML = 'Good job!';
+    } else if (clicks > 120) {
+        winMsg.innerHTML = 'You can do it better!';
+    }
+}
