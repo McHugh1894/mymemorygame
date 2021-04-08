@@ -158,4 +158,14 @@ function flipOver() {
             flipBack()
         }
     }
+
+
+    // Show the end game screen 
+    if (pairs <= 0) {
+        done.style.display = 'block';
+        clickNr.innerHTML = clicks + " clicks";
+
+        //Win message depends on the click score
+        winMessage()
+    }
 }
