@@ -169,3 +169,29 @@ function flipOver() {
         winMessage()
     }
 }
+
+// Matching cards 
+function match() {
+    firstCard.removeEventListener('click', flipOver);
+    firstCard.classList.add('bg_green');
+    secondCard.removeEventListener('click', flipOver);
+    secondCard.classList.add('bg_green');
+    pairs--;
+    clicks += 2;
+}
+
+// Not matching cards
+function flipBack() {
+    gameLock = true;
+    firstCard.classList.add('bg_red');
+    secondCard.classList.add('bg_red');
+    clicks += 2;
+
+    setTimeout(() => {
+        firstCard.classList.remove('flip');
+        firstCard.classList.remove('bg_red');
+        secondCard.classList.remove('flip');
+        secondCard.classList.remove('bg_red');
+        gameLock = false;
+    }, 1600);
+}
