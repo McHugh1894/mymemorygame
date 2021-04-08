@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+/* Index styling -----------*/
+.background {
+    background-image: url(../assets/images/background-img);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* styling of button to enter mainsite from landing page */
+.mainsite-button {
+    text-align: center;
+}
+
+.mainsite-button a {
+    color: #ffffff;
+    background-color: rgba(0, 0, 128);
+    margin-top: 10px;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 22px;
+}
+
+/* jumbotron */
+.jumbotron {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.jumbotron h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+
+}
+
+.h1,
+h1 {
+    font-size: 2rem;
+}
+
+.heading-position {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    color: #ffffff;
+    text-align: center;
+}
