@@ -76,3 +76,18 @@ function generateCards() {
 }
 var temp = generateCards()
 document.getElementById('game-board').innerHTML = cardsHtml
+
+// Select HTML elements
+const date = document.getElementById('date');
+const card = document.querySelectorAll('.card');
+const footerYear = document.getElementById('year');
+const info = document.getElementById('info-msg');
+const done = document.getElementById('done-msg');
+const clickNr = document.getElementById('clicks');
+const winMsg = document.getElementById('win-msg');
+
+
+const currentDate = new Date();
+
+// Show current year in the footer
+footerYear.innerHTML = currentDate.getFullYear();
