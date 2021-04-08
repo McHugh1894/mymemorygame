@@ -229,3 +229,26 @@ function shuffle() {
         cards.style.order = randomPosition;
     })
 }
+
+// Display the number of clicks the game was completed
+clickNr.innerHTML = clicks + " clicks";
+
+
+// Reset the game, new game
+function reset() {
+    setTimeout(() => {
+        flippedCard = false;
+        [firstCard, secondCard] = [null, null];
+        pairs = 15;
+        clicks = 0;
+        card.forEach(cardReset => cardReset.classList.remove('flip'));
+        card.forEach(cardBg => cardBg.classList.remove('bg_green'));
+        // Remove the red background in that case when the user start a new game
+        // while a not matched pair is stil not flipped back.  
+        card.forEach(cardBg => cardBg.classList.remove('bg_red'));
+        shuffle();
+        card.forEach(cards => cards.addEventListener('click', flipOver));
+    }, 800);
+    // For the case the player don't close the game finished window.
+    windowClose();
+}
