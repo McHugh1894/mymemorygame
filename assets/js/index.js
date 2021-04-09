@@ -199,19 +199,19 @@ function flipBack() {
 // Checking with how many clicks completed the game and give a message
 function winMessage() {
     if (clicks >= 30 && clicks <= 50) {
-        winMsg.innerHTML = 'Legendary!';
+        winMsg.innerHTML = 'Heroic!';
     } else if (clicks >= 51 && clicks <= 65) {
-        winMsg.innerHTML = 'King of the game!';
+        winMsg.innerHTML = 'Champion!';
     } else if (clicks >= 66 && clicks <= 80) {
-        winMsg.innerHTML = 'Marvelous!';
+        winMsg.innerHTML = 'Outstanding!';
     } else if (clicks >= 81 && clicks <= 90) {
-        winMsg.innerHTML = 'Awesome!';
+        winMsg.innerHTML = 'Brilliant!';
     } else if (clicks >= 91 && clicks <= 105) {
-        winMsg.innerHTML = 'Nice one!';
+        winMsg.innerHTML = 'Good Effort!';
     } else if (clicks >= 106 && clicks <= 120) {
-        winMsg.innerHTML = 'Good job!';
+        winMsg.innerHTML = 'Decent!';
     } else if (clicks > 120) {
-        winMsg.innerHTML = 'You can do it better!';
+        winMsg.innerHTML = 'Come on, do better!';
     }
 }
 
