@@ -12,11 +12,6 @@
     overflow: hidden;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 
 /* styling of button to enter mainsite from landing page */
 .mainsite-button {
