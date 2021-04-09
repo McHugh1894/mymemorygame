@@ -1,45 +1,125 @@
-<img src="assets/images/thinking-face.gif">
 
-Welcome McHugh1894,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Description
+Milestone Project 2: Interactive Frontend Development - Code Institute.
 
-## Gitpod Reminders
+This project is an interactive JavaScript memory game. It's optimised to desktop computer size monitor and tablet size screen.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+[LIVE DEPLOYMENT](https://mchugh1894.github.io/mymemorygame/)
 
-A blue button should appear to click: _Make Public_,
+## Wireframes
+The completed wireframes for this project can be accesed by clicking [Wireframes](link to be inserted)
 
-Another blue button should appear to click: _Open Browser_.
+## UX
+(ux image to be inserted)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Stories
+* The user should be read the rules and info about the game at the welcome screen. They should be able to run the game with a simple click on the "Let's play!" button. 
+* The user should see the count up timer in the top left corner in the header. 
+* The user should be able to optionally enter her/his name at the top right corner in the header to receive a personalised greeting like: "Welcome [name of the palyer], enjoy." 
+* The user should be able to click any of the cards which are facing down (not flipped already) to flip it over and try to find the right pairs. 
+* The user should be able to find pairs with clicking on the cards. If they clicked two cards and these cards are the same, they match, they stay flipped. If they don't match they flip back. 
+* The user should not be able to click on a new card till the two already flipped cards which are not matching and not turned back. 
+* The user should be receiving an interactive message at the end of the game when all pairs found depends on how many clicks were used to find all the pairs. The messages and the click ranges are the following:
 
-A blue button should appear to click: _Make Public_,
+  | Clicks    | |      Messages        |
+  |:--------: |-|:-----------:         |
+  | 30 - 50   |-|  Heroic!          |
+  | 51 - 65   |-| Champion!    |
+  | 66 - 80   |-| Outstanding!           |
+  | 81 - 90   |-| Brilliant!             |
+  | 91 - 105  |-| Good Effort!            |
+  | 106 - 120 |-| Decent!            |
+  | 120 +     |-| Come on, do better!|
+* The user should be able to close the pop up screen at the end of the game with a click on the "Congratulations!" button. 
+* The user should be able to start a new game anytime during the game by clicking the "New Game" button on the middle of the header, they don't need to wait till the game is finished. 
+* The user should be able to click any of the social media links in the middle of the footer. When the user hovering the cursor over the social media links the hovered link should be turn grey.
 
-Another blue button should appear to click: _Open Browser_.
+## Technologies Used
+The technologies i have used for this project are:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* HTML
+* CSS
+* JavaScript
+* [Google Fonts](https://fonts.google.com)
+* [Bootstrap 4](https://getbootstrap.com/)
+* [Font awesome](https://fontawesome.com/)
 
-## Updates Since The Instructional Video
+## External resources
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* [Tinypng](http://https://tinypng.com/) - Website used to compress my images to allow for faster loading times. 
+* [Stack Overflow](https://fonts.google.com/) - Resource which provided the fonts for the website
+* [Font Awesome](https://fontawesome.com/) - Used to provide small icons for the website.
+* [Favicon](https://favicon.io/) - Used to create favicon for the website
+* [W3C HTML Validator](https://validator.w3.org/) - Used to test HTML code on the website.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to test the CSS code on the website.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Testing All Functions
+* **_Function player name:_** By clicking on the input field entered a name, on Chrome browser, there are two ways to activate the function **_first:_** when the input field lose the focus it's activating the personalised welcome message. **_second:_** Enter the name and press enter to receive the personalised message. For all the other browsers entered the player name and pressed enter. For every browser I tested was working well.  
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* **_New game button:_** Tested several times at the beginning and at the end of the game was working fine no errors found. Tested in the middle of the game some error is discovered which are fixed. The detailed report you can find under the **_bug report and fix_** section. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* **_Closing window function:_** Tested at the beginning with the info / welcome screen by clicking the _"Let's play!"_ button. Were no errors found. Tested at the game completion screen by pressing the _"Congratulations!"_ button. No errors found. Both screens close normally as it should be. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* **_Personalised completion message:_** 
+  * Tested by playing the game.
+  * Tested by changing the variable ```clicks``` for testing of the correct message will be displayed with the correct click range in the console and console log the message. All ranges were tested and were working well. No error was found!
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* **_The game logic:_** 
+  * **_Card flip:_** Tested by clicking on the cards and the clicked cards was flipping over.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  * **_Found a match:_** When clicking on two cars which are the same, both card's stay flipped and locked(non clickable anymore) until the game is not complete or until a new game is not started. The match function was working fine, no error was found.
 
----
+  * **_Not a match:_** When clicking on the second card and the cards are not matching, the card's turn back after a few milliseconds (let the player to memorise the cards). The cards are still clickable. The not a match function was working fine, no error was found. 
 
-Happy coding!
+  * **_Click count:_** Tested by console logging the ```clicks``` variable after the match and not a match functions were executed and changing it by +2 (the two clicks which was used to turn the two cards) under the development status. After no errors were found the "console log" was removed from the code. 
+
+  * **_Checking the game completion:_** There are 30 cards (15 pairs) in the game. The ```pairs``` variable was set to 15 and with every time when a pair got found the match function deducted it by 1. When ```pairs``` reach 0 that means there are no more pairs to find, the completion message will be poping up, the game was complete. Tested the function by playing the game till the end and changing the ```pairs``` variable in the console to check the completion window will pop up. The function was working well, no error was found.
+
+* **_Browser and OS:_** The game was tested across multiple browsers(chrome, firefox, safari, internet explorer) and platform(Win10, iOS, Mac OS) PCs and on my Ipad. I asked a some of my friends to test it and give some feedback or possible bug reports.
+
+* **_Social media links:_** All links were tested by clicking on them. All links open the required social media site in a new window, tab. While hovering over one of the links it's turns grey as highlighted. No error was found at any of the links. 
+
+### Bugs and fixes: 
+* _**The following bug reports were reported to me wich I fixed:**_
+ 
+  * **_Bug:_** The game was playable while the info / welcome screen still was visible. 
+    **_Solution:_** Locking the gameboard until the user not closing the info / welcome screen. 
+
+### Error Testing
+
+* [W3C HTML Validator](https://validator.w3.org/) - ALL HTML pages passed with no errors after corrections made.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - CSS style sheet passed with no errors.
+
+### Image Testing
+
+In order to help the website load faster all of the images were removed from the website and then uploaded to [Tinypng](http://https://tinypng.com/) in order to compress the images to more reasonable file sizes to increase loading speed.
+
+(insert image test results)
+
+### Speed Testing
+
+After compressing all the website images i then chose to run all my pages through [GT Metrix - Speed test](https://gtmetrix.com//) to get a view of the page load speeds.
+
+(insert screenshots)
+
+## Deployment
+
+* [My Memory Game](https://mchugh1894.github.io/mymemorygame/) site is hosted using GitHub pages.
+
+* The deployed site is hosted directly through github so all commits are live.
+
+* To deploy on github open: https://mchugh1894.github.io/mymemorygame/ -> settings -> scroll to Guthub Pages -> Select Source -> Master Branch -> Save -> After page refresh scroll pack down to github pages section to see the deployed link.
+
+* For local use please visit: https://mchugh1894.github.io/mymemorygame/ and clone the relevant code from the master branch by selecting code -> Then copy the url -> Open Git Bash on your system -> Change the current directory to where you want the clone to be made -> type "git clone" and paste the URL eg "https://mchugh1894.github.io/mymemorygame/" -> Press Enter to create your local clone
+
+## Credits
+
+* Credits go to my mentor Akshat Garg and the Codeinstitute/slack group for the help with this project.
+
+### Media 
+
+(insert media links)
