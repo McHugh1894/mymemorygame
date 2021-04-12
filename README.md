@@ -50,7 +50,6 @@ The technologies i have used for this project are:
 
 * [Tinypng](http://https://tinypng.com/) - Website used to compress my images to allow for faster loading times. 
 * [Stack Overflow](https://fonts.google.com/) - Resource which provided the fonts for the website
-* [Font Awesome](https://fontawesome.com/) - Used to provide small icons for the website.
 * [Favicon](https://favicon.io/) - Used to create favicon for the website
 * [W3C HTML Validator](https://validator.w3.org/) - Used to test HTML code on the website.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to test the CSS code on the website.
@@ -104,7 +103,9 @@ In order to help the website load faster all of the images were removed from the
 
 After compressing all the website images i then chose to run all my pages through [GT Metrix - Speed test](https://gtmetrix.com//) to get a view of the page load speeds.
 
-(insert screenshots)
+<img src="assets/images/readme-images/landing-page-report.png">
+
+<img src="assets/images/readme-images/main-page-report.png">
 
 ## Deployment
 
