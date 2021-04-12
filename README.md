@@ -1,5 +1,4 @@
 
-
 ## Description
 Milestone Project 2: Interactive Frontend Development - Code Institute.
 
@@ -12,7 +11,8 @@ This project is an interactive JavaScript memory game. It's optimised to desktop
 The completed wireframes for this project can be accesed by clicking [Wireframes](https://github.com/McHugh1894/mymemorygame/tree/master/assets/images/readme-images/wireframes)
 
 ## UX
-(ux image to be inserted)
+<img src="assets/images/readme-images/ux-image.png">
+
 
 ### User Stories
 * The user should be read the rules and info about the game at the welcome screen. They should be able to run the game with a simple click on the "Let's play!" button. 
