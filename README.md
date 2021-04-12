@@ -9,7 +9,7 @@ This project is an interactive JavaScript memory game. It's optimised to desktop
 [LIVE DEPLOYMENT](https://mchugh1894.github.io/mymemorygame/)
 
 ## Wireframes
-The completed wireframes for this project can be accesed by clicking [Wireframes](link to be inserted)
+The completed wireframes for this project can be accesed by clicking [Wireframes](https://mchugh1894.github.io/mymemorygame/assets/images/readme-images/wireframes)
 
 ## UX
 (ux image to be inserted)
