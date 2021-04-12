@@ -97,7 +97,7 @@ The technologies i have used for this project are:
 
 In order to help the website load faster all of the images were removed from the website and then uploaded to [Tinypng](http://https://tinypng.com/) in order to compress the images to more reasonable file sizes to increase loading speed.
 
-(insert image test results)
+<img src="assets/images/readme-images/image-compressed.png">
 
 ### Speed Testing
 
@@ -123,4 +123,8 @@ After compressing all the website images i then chose to run all my pages throug
 
 ### Media 
 
-(insert media links)
+* [Background Image](https://unsplash.com/photos/MNke6R_VheE)
+* [Flipped Cards Images](https://www.carlogos.org/car-brands/)
+* [GIF For Landing Page](https://acegif.com/thinking-emoji-gifs/)
+* [Card Back Image](https://blog.passmefast.co.uk/on-the-road/top-10-driving-films/)
+
