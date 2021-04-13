@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
 
 /* Index styling -----------*/
 .background {
@@ -9,9 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    overflow: hidden;
 }
-
 
 /* styling of button to enter mainsite from landing page */
 .mainsite-button {
@@ -22,7 +20,6 @@
     color: #ffffff;
     background-color: rgba(0, 0, 128);
     margin-top: 10px;
-    font-family: 'Montserrat'sans-serif;
     font-size: 22px;
 }
 
@@ -35,15 +32,13 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
-
 }
 
 .jumbotron h1 {
     color: #ffffff;
     font-weight: bold;
     font-size: 3rem;
-    font-family: 'Montserrat';
-
+    font-family: "Montserrat";
 }
 
 .h1,
@@ -65,8 +60,14 @@ h1 {
     text-align: center;
 }
 
-/* Basic styling -----------*/
+#gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
+/* Basic styling -----------*/
 
 * {
     margin: 0;
@@ -75,13 +76,11 @@ h1 {
 }
 
 body {
-    background: url('../images/background-img.jpg') no-repeat center fixed;
+    background: url("../images/background-img.jpg") no-repeat center fixed;
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: black;
-
 }
-
 
 .content {
     position: relative;
@@ -89,8 +88,7 @@ body {
     width: 70vw;
     min-height: 100vh;
     margin: 0 auto;
-    box-shadow: 9px 0 10px -6px rgba(0, 0, 0, 0.55),
-        -9px 0 10px -6px rgba(0, 0, 0, 0.55);
+    box-shadow: 9px 0 10px -6px rgba(0, 0, 0, 0.55), -9px 0 10px -6px rgba(0, 0, 0, 0.55);
     text-align: center;
     color: #fefefe;
 }
@@ -108,10 +106,8 @@ body {
     bottom: 0;
 }
 
-
 #player {
     right: 0;
-
 }
 
 #name-input {
@@ -121,26 +117,21 @@ body {
     color: #fefefe;
 }
 
-
 .btn-success {
     margin-top: 10px;
     background-color: rgba(0, 0, 128);
     border-color: #fff;
-
-
 }
 
 #center-btn {
     margin-left: auto;
     margin-right: auto;
     width: 47.5%;
-
 }
 
 #timer {
     width: 47.5%;
     padding: 0 0 5px 30px;
-
 }
 
 .btn-success:hover {
@@ -317,7 +308,6 @@ body {
 /* Tablet ------------- */
 
 @media (max-width: 1024px) {
-
     .content {
         width: 95vw;
     }
