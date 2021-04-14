@@ -15,9 +15,10 @@ The completed wireframes for this project can be accesed by clicking [Wireframes
 
 
 ### User Stories
+* The user should be welcomed by a jumbotron containing a message "Test your memory", a gif and a "Start Game" button at the landing page. They should be able to enter the game with a click of the "Start game" button.
 * The user should be read the rules and info about the game at the welcome screen. They should be able to run the game with a simple click on the "Let's play!" button. 
 * The user should see the count up timer in the top left corner in the header. 
-* The user should be able to optionally enter her/his name at the top right corner in the header to receive a personalised greeting like: "Welcome [name of the palyer], enjoy." 
+* The user should be able to optionally enter her/his name at the top right corner in the header to receive a personalised greeting like: "Welcome [name of the player], enjoy." 
 * The user should be able to click any of the cards which are facing down (not flipped already) to flip it over and try to find the right pairs. 
 * The user should be able to find pairs with clicking on the cards. If they clicked two cards and these cards are the same, they match, they stay flipped. If they don't match they flip back. 
 * The user should not be able to click on a new card till the two already flipped cards which are not matching and not turned back. 
@@ -33,7 +34,7 @@ The completed wireframes for this project can be accesed by clicking [Wireframes
   | 106 - 120 |-| Decent!            |
   | 120 +     |-| Come on, do better!|
 * The user should be able to close the pop up screen at the end of the game with a click on the "Congratulations!" button. 
-* The user should be able to start a new game anytime during the game by clicking the "New Game" button on the middle of the header, they don't need to wait till the game is finished. 
+* The user should be able to start a new game anytime during the game by clicking the "Restart game" button on the middle of the header, they don't need to wait till the game is finished. 
 * The user should be able to click any of the social media links in the middle of the footer. When the user hovering the cursor over the social media links the hovered link should be turn grey.
 
 ## Technologies Used
