@@ -121,15 +121,16 @@ body {
 }
 
 #center-btn {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-right: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #timer {
-    width: 47.5%;
-    padding: 0 0 5px 30px;
+    padding-top: 30px;
 }
 
 .btn-success:hover {
@@ -145,16 +146,13 @@ body {
 #game-content {
     position: relative;
     height: 89vh;
-    width: 94%;
-    margin: 10px auto 10px auto;
+    width: 100%;
+    flex-wrap: wrap;
     display: flex;
-
     justify-content: center;
     align-items: center;
     perspective: 1000px;
-
     border-radius: 10px;
-
     text-align: center;
 }
 
@@ -162,7 +160,6 @@ body {
     position: relative;
     height: 89vh;
     width: 94%;
-    margin: 10px auto 10px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -207,6 +204,7 @@ body {
 .front-face,
 .back-face {
     cursor: pointer;
+
     width: 100%;
     height: 100%;
     position: absolute;
@@ -216,13 +214,10 @@ body {
 
 .front-face {
     transform: rotateY(180deg);
+
 }
 
-.img {
-    vertical-align: middle;
-    border-style: none;
-    object-fit: cover;
-}
+
 
 /* Footer ------------------- */
 #footer {
@@ -244,7 +239,7 @@ body {
 .fa {
     color: #fefefe;
     padding-right: 4px;
-    font-size: 25px;
+    font-size: 15px;
     margin: 4px;
 }
 
@@ -306,6 +301,7 @@ body {
 
 @media (max-width: 1024px) {
     .content {
-        width: 95vw;
+        width: 100vw;
+        margin: 0;
     }
 }
