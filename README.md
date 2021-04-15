@@ -5,10 +5,10 @@
 This project is an interactive JavaScript memory game built for my Milestone Project 2. 
 
 
-[LIVE DEPLOYMENT](https://mchugh1894.github.io/mymemorygame/)
+[LIVE DEPLOYMENT](https://mchugh1894.github.io/testyourmemory/)
 
 ## Wireframes
-The completed wireframes for this project can be accesed by clicking [Wireframes](https://github.com/McHugh1894/mymemorygame/tree/master/assets/images/readme-images/wireframes)
+The completed wireframes for this project can be accesed by clicking [Wireframes](https://github.com/McHugh1894/testyourmemory/tree/master/assets/images/readme-images/wireframes)
 
 ## UX
 <img src="assets/images/readme-images/ux-image.png">
@@ -110,13 +110,13 @@ After compressing all the website images i then chose to run all my pages throug
 
 ## Deployment
 
-* [My Memory Game](https://mchugh1894.github.io/mymemorygame/) site is hosted using GitHub pages.
+* [Test Your Memory](https://mchugh1894.github.io/testyourmemory/) site is hosted using GitHub pages.
 
 * The deployed site is hosted directly through github so all commits are live.
 
-* To deploy on github open: https://mchugh1894.github.io/mymemorygame/ -> settings -> scroll to Guthub Pages -> Select Source -> Master Branch -> Save -> After page refresh scroll pack down to github pages section to see the deployed link.
+* To deploy on github open: https://mchugh1894.github.io/testyourmemory/ -> settings -> scroll to Guthub Pages -> Select Source -> Master Branch -> Save -> After page refresh scroll pack down to github pages section to see the deployed link.
 
-* For local use please visit: https://mchugh1894.github.io/mymemorygame/ and clone the relevant code from the master branch by selecting code -> Then copy the url -> Open Git Bash on your system -> Change the current directory to where you want the clone to be made -> type "git clone" and paste the URL eg "https://mchugh1894.github.io/mymemorygame/" -> Press Enter to create your local clone
+* For local use please visit: https://mchugh1894.github.io/testyourmemory/ and clone the relevant code from the master branch by selecting code -> Then copy the url -> Open Git Bash on your system -> Change the current directory to where you want the clone to be made -> type "git clone" and paste the URL eg "https://mchugh1894.github.io/mymemorygame/" -> Press Enter to create your local clone
 
 ## Credits
 
