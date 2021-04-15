@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is an interactive JavaScript memory game built for my Milestone Project 2. It's optimised to desktop computer size monitor and tablet size screen.
+This project is an interactive JavaScript memory game built for my Milestone Project 2. 
 
 
 [LIVE DEPLOYMENT](https://mchugh1894.github.io/mymemorygame/)
